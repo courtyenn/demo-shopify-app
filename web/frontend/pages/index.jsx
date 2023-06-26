@@ -46,7 +46,7 @@ const {
 const productsMarkup = Products?.length ? Products.map((p) => {
   return <AlphaCard>
     <h2>{p.title}</h2>
-    <img src={p.imageUrl} />
+    <img src={p.imageUrl} width={200}/>
   </AlphaCard>
 }) : null
 
