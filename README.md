@@ -14,7 +14,7 @@ Shopify Partner is a developer account that allows free access to some APIs: the
 
 **Theming**
 
-My first idea was to build a custom theme. I figured it would be a great portfolio piece because I am tuned in to best design practices, SEO/A11y standards, animation and responsive code. I quickly ran into an [issue with M1 MacOs](https://github.com/Shopify/cli/issues/1260)
+My first idea was to build a custom theme. I figured it would be a great portfolio piece because I am tuned in to best design practices, SEO/A11y standards, animation and responsive code. I quickly ran into an [issue with M1 MacOs](https://github.com/Shopify/cli/issues/1260) and ceased work here.
 
 - It is critical to understand [Shopify's Best Practices](https://shopify.dev/docs/themes/best-practices) when it comes to creating a theme, or an app.
 
@@ -23,12 +23,15 @@ My first idea was to build a custom theme. I figured it would be a great portfol
 Creating an Admin App required a full understanding of systems. Unlike creating a theme that focuses on just the frontend code, an Admin App is a fullstack area of expertise. I first used a QR Code tutorial on Shopify's website, so a lot of the code in this repo does that the tutorial piece embedded.
 
 - Shopify requires the app to look like Shopify using their UI System, Polaris.
-- It is written in Vanilla JS, so more bug prone.
 - "App Bridge" JS Library to streamline embedding an app inside Admin
 
 ## Next steps
 
-- I've solved my issue creating a Shopify theme, and I think this would be a great portfolio piece: to publish my own web theme on a professional platform like Shopify
+The intent behind this project was to display a list of products and give them code that will allow users to copy and paste into other websites for advertising purposes.
+
+## Some unknowns
+
+I'd like to know if admin apps are contained within their own page or if it can build widgets that live next to Shopify code
 
 ## **How to run the app**
 
